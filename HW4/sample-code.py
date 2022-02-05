@@ -12,11 +12,11 @@ ACTIONS = [LEFT,DOWN,RIGHT,UP]
 
 #%% hyperparameters
 REPS = 20
-EPISODES = #100
+EPISODES = 1000
 EPSILON = 0.1
 LEARNING_RATE = 0.1
 DISCOUNT = 0.9
-STUDENT_NUM = # 810198253
+STUDENT_NUM = 810196662
 
 #%% get familiar with the environment
 environment = NSFrozenLake(studentNum=STUDENT_NUM)
